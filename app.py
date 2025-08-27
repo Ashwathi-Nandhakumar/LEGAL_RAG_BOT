@@ -1,17 +1,15 @@
 import gradio as gr
 from rag_pipeline import load_contract, query_contract
 
-
+#handling file uploads
 def upload_file(file):
-    """Handle file upload"""
     if file is None:
         return "⚠️ Please upload a file."
     load_contract(file)
     return "✅ Contract uploaded and indexed successfully!"
 
-
+#chatbot function
 def chat_with_bot(message, history):
-    """Handle user query with chatbot"""
     response = query_contract(message)
     # Adapt response into Gradio-friendly format
     history = history + [
@@ -35,7 +33,6 @@ with gr.Blocks(title="Legal Contract Assistant") as demo:
         send_btn = gr.Button("Ask")
         clear_btn = gr.Button("Clear Chat")
 
-    # Events
     file_upload.upload(fn=upload_file, inputs=file_upload, outputs=upload_status)
     send_btn.click(fn=chat_with_bot, inputs=[user_input, chatbot], outputs=chatbot)
     clear_btn.click(lambda: [], None, chatbot, queue=False)
