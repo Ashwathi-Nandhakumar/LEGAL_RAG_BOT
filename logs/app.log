@@ -1,0 +1,183 @@
+2025-08-23 14:22:05,677 [INFO]: HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-23 14:22:05,716 [INFO]: HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-08-23 14:22:07,280 [INFO]: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-23 14:27:38,253 [INFO]: Loadinf file from pathC:\Users\Ashwa\AppData\Local\Temp\gradio\2157d45e6304160cbcacc6f72c58952fb5ad042c356c6808bd62142839de8b46\thetradeunionsact1926.pdf..
+2025-08-23 14:28:01,248 [INFO]: Loadinf file from pathC:\Users\Ashwa\AppData\Local\Temp\gradio\4c23b78801c3374baccb1fd21431dc383843a1e926cb88ce1aff14848adccf1c\llamindex cheat sheet.pdf..
+2025-08-23 14:46:14,634 [INFO]: HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-23 14:46:14,673 [INFO]: HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-08-23 14:46:16,010 [INFO]: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-23 14:47:03,863 [INFO]: Loadinf file from pathC:\Users\Ashwa\AppData\Local\Temp\gradio\2157d45e6304160cbcacc6f72c58952fb5ad042c356c6808bd62142839de8b46\thetradeunionsact1926.pdf..
+2025-08-23 14:50:57,275 [INFO]: HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-23 14:50:57,304 [INFO]: HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-08-23 14:50:58,080 [INFO]: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-23 14:51:55,621 [INFO]: HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-23 14:51:55,646 [INFO]: HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-08-23 14:51:56,425 [INFO]: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-23 14:52:22,224 [INFO]: Loadinf file from pathC:\Users\Ashwa\AppData\Local\Temp\gradio\2157d45e6304160cbcacc6f72c58952fb5ad042c356c6808bd62142839de8b46\thetradeunionsact1926.pdf..
+2025-08-23 14:52:25,436 [INFO]: contract upload: successful
+2025-08-23 14:54:09,451 [INFO]: HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-23 14:54:09,471 [INFO]: HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-08-23 14:54:10,755 [INFO]: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-23 14:54:19,015 [INFO]: Loadinf file from pathC:\Users\Ashwa\AppData\Local\Temp\gradio\2157d45e6304160cbcacc6f72c58952fb5ad042c356c6808bd62142839de8b46\thetradeunionsact1926.pdf..
+2025-08-23 14:54:22,155 [INFO]: contract upload: successful
+2025-08-23 14:54:34,994 [INFO]: user question: summarize this legal document
+2025-08-23 14:54:34,994 [INFO]: Condensed question: summarize this legal document
+2025-08-23 14:54:36,224 [INFO]: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-08-23 14:54:40,156 [INFO]: user question: summarize this legal document
+2025-08-23 14:54:40,156 [INFO]: Condensed question: summarize this legal document
+2025-08-23 14:54:40,242 [INFO]: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-08-23 14:57:44,443 [INFO]: HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-23 14:57:44,466 [INFO]: HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-08-23 14:57:45,163 [INFO]: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-23 14:57:52,582 [INFO]: Loadinf file from pathC:\Users\Ashwa\AppData\Local\Temp\gradio\2157d45e6304160cbcacc6f72c58952fb5ad042c356c6808bd62142839de8b46\thetradeunionsact1926.pdf..
+2025-08-23 14:57:55,691 [INFO]: contract upload: successful
+2025-08-23 14:58:10,177 [INFO]: user question: summarize this legal contract
+2025-08-23 14:58:10,177 [INFO]: Condensed question: summarize this legal contract
+2025-08-23 14:58:12,075 [INFO]: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-23 14:58:12,086 [INFO]: bot response: The provided documents appear to be excerpts from the Trade Unions Act, 1926, in India. This act outlines the rules and regulations for registered trade unions in the country. Here's a summary of the key points:
+
+**Objectives of a Trade Union:**
+
+The act specifies various objects that a trade union can pursue, including:
+
+1. Conducting trade disputes on behalf of the union or its members.
+2. Compensating members for losses arising from trade disputes.
+3. Providing allowances to members or their dependents for death, old age, sickness, accidents, or unemployment.
+4. Issuing policies of assurance on the lives of members or insuring them against sickness, accidents, or unemployment.
+5. Providing educational, social, or religious benefits for members or their dependents.
+6. Maintaining a periodical publication for discussing employer-employee issues.
+7. Paying contributions to causes that benefit workers.
+8. Any other object notified by the appropriate government.
+
+**Restrictions on Expenditure:**
+
+The act specifies that the expenditure on contributions to causes that benefit workers should not exceed one-fourth of the combined total of the gross income and balance at the credit of the general funds of the trade union in any financial year.
+
+**Separate Fund for Political Purposes:**
+
+A registered trade union can constitute a separate fund for political purposes, from which payments can be made for promoting the civic and political interests of its members. The objects of this fund include:
+
+1. Paying expenses incurred by a candidate or prospective candidate for election to a legislative body or local authority.
+2. Holding meetings or distributing literature in support of a candidate or prospective candidate.
+3. Maintaining a person who is a member of a legislative body or local authority.
+
+**Enforceability of Agreements:**
+
+The act states that an agreement between trade union members is not void or voidable merely because it is in restraint of trade.
+
+**Rights and Inspections:**
+
+The act provides that the account books of a registered trade union and the list of members are open to inspection by an office-bearer or member of the trade union at specified times.
+
+**Rights of Minors:**
+
+Any person who has attained the age of 15 years can be a member of a registered trade union, subject to any rules of the trade union to the contrary.
+
+**Disqualifications of Office-Bearers:**
+
+A person is disqualified from being an office-bearer of a registered trade union if they have not attained the age of 18 years or have been convicted of an offence involving moral turpitude and sentenced to imprisonment, unless a period of five years has elapsed since their release.
+2025-08-23 15:06:52,403 [INFO]: HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-23 15:06:52,426 [INFO]: HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-08-23 15:06:53,952 [INFO]: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-23 15:07:06,656 [INFO]: Loadinf file from pathC:\Users\Ashwa\AppData\Local\Temp\gradio\2157d45e6304160cbcacc6f72c58952fb5ad042c356c6808bd62142839de8b46\thetradeunionsact1926.pdf..
+2025-08-23 15:07:09,486 [INFO]: contract upload: successful
+2025-08-23 15:07:18,935 [INFO]: user question: summarize the document 
+2025-08-23 15:07:18,936 [INFO]: Condensed question: summarize the document 
+2025-08-23 15:07:20,415 [INFO]: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-23 15:07:20,424 [INFO]: bot response: The document appears to be an excerpt from the Trade Unions Act, 1926, of India. It outlines the various objects and purposes for which a registered trade union can be formed and operate.
+
+Some of the key objects mentioned in the document include:
+
+1. Conducting trade disputes on behalf of the trade union or its members.
+2. Providing compensation to members for losses arising out of trade disputes.
+3. Offering allowances to members or their dependants for death, old age, sickness, accidents, or unemployment.
+4. Issuing policies of assurance on the lives of members or insuring them against sickness, accident, or unemployment.
+5. Providing educational, social, or religious benefits for members or their dependants.
+6. Maintaining a periodical publication for discussing questions affecting employers or workmen.
+7. Paying contributions to causes intended to benefit workmen.
+8. Constituting a separate fund for political purposes, which can be used to promote the civic and political interests of its members.
+
+The document also specifies that the expenditure on certain objects, such as contributions to causes intended to benefit workmen, should not exceed one-fourth of the combined total of the gross income and balance at the credit of the trade union's general funds.
+
+Overall, the document provides a framework for the formation and operation of trade unions in India, outlining the various objects and purposes for which they can be established and the limitations on their expenditure.
+2025-08-24 09:25:51,649 [INFO]: HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-24 09:25:51,675 [INFO]: HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-08-24 09:25:52,215 [INFO]: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-24 09:26:05,217 [INFO]: Loadinf file from pathC:\Users\Ashwa\AppData\Local\Temp\gradio\2157d45e6304160cbcacc6f72c58952fb5ad042c356c6808bd62142839de8b46\thetradeunionsact1926.pdf..
+2025-08-24 09:26:11,527 [INFO]: contract upload: successful
+2025-08-24 09:26:23,573 [INFO]: user question: summarize this document 
+2025-08-24 09:26:23,573 [INFO]: Condensed question: summarize this document 
+2025-08-24 09:26:25,864 [INFO]: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 09:26:25,889 [INFO]: bot response: The document appears to be an excerpt from the Trade Unions Act, 1926, of India. It outlines the various objects and activities that a registered trade union can engage in, as well as the regulations and requirements for registration and operation.
+
+Here's a summary of the key points:
+
+**Objects of a Trade Union:**
+
+The document lists 11 objects that a trade union can engage in, including:
+
+* Conducting trade disputes on behalf of members
+* Providing compensation for losses arising from trade disputes
+* Offering allowances for death, old age, sickness, accidents, or unemployment
+* Issuing policies of assurance on the lives of members
+* Providing educational, social, or religious benefits for members
+* Publishing a periodical for discussing questions affecting employers or workmen
+* Making contributions to causes intended to benefit workmen
+* And several other objects
+
+**Registration and Regulation:**
+
+The document also outlines the requirements for registration and operation of a trade union, including:
+
+* The need for a separate fund for political purposes
+* The requirement to submit a general statement of receipts and expenditure to the Registrar
+* The need to send a copy of every alteration made in the rules of the trade union to the Registrar
+* The power of the Registrar to inspect documents and account books
+* The regulations for making regulations under the Act
+
+**Regulations:**
+
+The document also provides for the power of the government to make regulations for carrying out the provisions of the Act, including regulations for registration, auditing, and inspection of documents.
+
+Overall, the document provides a comprehensive overview of the objects and activities of a trade union, as well as the regulations and requirements for registration and operation.
+2025-08-24 09:55:07,163 [INFO]: HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-24 09:55:07,182 [INFO]: HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-08-24 09:55:08,241 [INFO]: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-24 09:58:09,321 [INFO]: Loadinf file from pathC:\Users\Ashwa\AppData\Local\Temp\gradio\fdb1825081c9f0aa3f860aa8d92292c07390943fc4a1cad3586ec039e04079d5\SampleContract-Shuttle.pdf..
+2025-08-24 09:58:09,654 [INFO]: Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-24 09:58:13,804 [INFO]: 1 prompt is loaded, with the key: query
+2025-08-24 09:58:31,251 [INFO]: contract upload: successful
+2025-08-24 09:59:23,491 [INFO]: user question: what are the indemnification for damages, etc terms in the doc
+2025-08-24 09:59:23,492 [INFO]: Condensed question: what are the indemnification for damages, etc terms in the doc
+2025-08-24 09:59:24,806 [INFO]: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 09:59:24,813 [INFO]: bot response: According to Section 5 of the document, the indemnification for damages, taxes, and contributions terms are outlined in the following way:
+
+**A. Claims, Demands, Losses, Damages, Defense Costs, and Liability**
+
+The Consultant (you) agrees to indemnify, defend, and hold harmless the Commission (the other party) from and against any and all claims, demands, losses, damages, defense costs, or liability of any kind or nature that the Commission may sustain or incur, or that may be imposed upon it, due to:
+
+1. Your negligence
+2. Your recklessness
+3. Your willful misconduct
+
+This indemnification includes any damage to:
+
+1. The person(s) of the Consultant (you) and third persons
+2. The property(ies) of the Consultant (you) and third persons
+
+**B. Federal, State, and Local Taxes, Charges, Fees, or Contributions**
+
+The Consultant (you) also agrees to indemnify the Commission for any and all Federal, State, and Local taxes, charges, fees, or contributions required to be paid with respect to:
+
+1. You (the Consultant)
+2. Your officers
+3. Your employees
+4. Your agents
+
+These taxes, charges, fees, or contributions include, but are not limited to:
+
+1. Unemployment insurance
+2. Social security
+3. Payroll tax withholding
+
+In essence, the Consultant (you) is taking on the responsibility of paying for any damages, losses, or liabilities that may arise from your actions or omissions, as well as any taxes, charges, fees, or contributions that may be required to be paid.
