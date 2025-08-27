@@ -1,4 +1,4 @@
-# legal_chunker.py
+
 import re
 from typing import List
 from llama_index.core import Document
@@ -7,12 +7,12 @@ from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 
 
 def hybrid_legal_chunker(text: str, max_chunk_size: int = 800) -> List[str]:
-    # Step 1: Regex split on common legal headers
+    #regex split on common legal headers
     pattern = re.compile(r"(?=(Section\s+\d+|Article\s+\d+|^\d+\.\s+[A-Z]))",
                          re.IGNORECASE | re.MULTILINE)
     splits = pattern.split(text)
 
-    # Merge headers with their content
+    # merging headers with their content
     chunks = []
     for i in range(1, len(splits), 2):
         header = splits[i].strip()
@@ -22,7 +22,7 @@ def hybrid_legal_chunker(text: str, max_chunk_size: int = 800) -> List[str]:
     if not chunks:
         chunks = [text]  # fallback if regex finds nothing
 
-    # Step 2: If a chunk is too long, break it semantically
+    #breaking a chunk if its too long, based on semantics
     embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en-v1.5")
     semantic_splitter = SemanticSplitterNodeParser(embed_model=embed_model)
 
