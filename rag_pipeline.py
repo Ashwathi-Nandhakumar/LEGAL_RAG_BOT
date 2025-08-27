@@ -17,12 +17,13 @@ logging.basicConfig(filename=LOG_FILE, level=logging.INFO,format="%(asctime)s [%
 #wrap the llm 
 llm = Groq(api_key=GROQ_API_KEY,model="llama-3.1-8b-instant")
 
+#initate memoery for easy memory management and storage 
 memory = ChatMemoryBuffer.from_defaults(token_limit=800)
 #declare global variables to store the vectordatabase and the query engine
 index=None
 chat_engine = None
 
-#function to load the contract thats locally available on the users device
+#function to load the contract thats locally available on the users device and 
 def load_contract(file_path):
     global index,chat_engine
     logging.info(f"Loadinf file from path{file_path}..")
@@ -32,13 +33,14 @@ def load_contract(file_path):
     docs = reader.load_data()
     raw_text = "\n".join([doc.text for doc in docs])
 
-    # 2. Chunk with our custom hybrid chunker  ✅ UPDATED
+    #chunking with hybrid chunker
     chunks = hybrid_legal_chunker(raw_text, max_chunk_size=800)
 
-    # 3. Convert chunks back into Document objects  ✅ NEW
+    #convert the chunks back into a document for easy processing
     from llama_index.core import Document
     docs = [Document(text=chunk) for chunk in chunks]
 
+    #prompt template to limit usage for legal contract reading/querying only
     system_prompt = (
         "You are a legal contract assistant. "
         "Your job is to read the contract and answer questions in plain English. "
@@ -52,7 +54,7 @@ def load_contract(file_path):
     logging.info("contract upload: successful")
 
     
-
+#final function
 def query_contract(question):
     global chat_engine
     if chat_engine is None:
