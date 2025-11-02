@@ -1,4 +1,4 @@
-# LEGAL_RAG_BOT
+# LegalRAG-Chatbot
 
 ## Project Overview
 
